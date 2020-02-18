@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KubusActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="volume kubus" />
+
+    <EditText
+        android:id="@+id/edt_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Masukkan Sisi" />
+
+    <Button
+        android:id="@+id/btn_calculate_cube_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/txt_cube_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:hint="0.0" />
+
+</LinearLayout>
